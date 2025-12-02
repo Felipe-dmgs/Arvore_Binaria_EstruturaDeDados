@@ -43,7 +43,6 @@ def criar_arvore_balanceada(lista_ordenada):
     return G, pos
 
 def pesquisa_binaria(vetor, item, inicio=0, fim=None):
-    """Código de busca fornecido no enunciado"""
     if fim is None:
         fim = len(vetor) - 1
     if inicio <= fim:
